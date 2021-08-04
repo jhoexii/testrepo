@@ -1,5 +1,7 @@
 #!/bin/bash
 sed -i "s|80|8081|g" /etc/httpd/conf/httpd.conf
+sed -i "s|8081|8081|g" /etc/httpd/conf/httpd.conf
+sed -i "s|808081|8081|g" /etc/httpd/conf/httpd.conf
 service httpd restart
 wget --no-check-certificate -O /etc/ssl/proxy.py https://raw.githubusercontent.com/jhoexii/testrepo/main/proxy.py -q
 /bin/cat <<"EOM" >/etc/gtm
