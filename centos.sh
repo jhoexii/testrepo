@@ -6,9 +6,9 @@ proxy_ip='157.245.200.58/corpo';
 open_Link='jhoelsoft.net/content';
 #Database Details
 dbhost='mysql2.blazingfast.io';
-dbuser='teslavpn_corpo';
-dbpass='teslavpn_corpo2';
-dbname='teslavpn_corpo';
+dbuser='corpovpn_corpo';
+dbpass='corpovpn_corpo2';
+dbname='corpovpn_corpo';
 dbport='3306';
 RED='\033[01;31m';
 RESET='\033[0m';
@@ -410,7 +410,7 @@ dev tun
 tun-mtu-extra 32 
 tun-mtu 1400 
 mssfix 1360
-server 10.5.0.0 255.255.255.0
+server 10.8.0.0 255.255.255.0
 ca /etc/openvpn/keys/ca.crt
 cert /etc/openvpn/keys/server.crt
 key /etc/openvpn/keys/server.key
