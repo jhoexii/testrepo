@@ -5,7 +5,7 @@ sed -i "s/SELINUX=enforcing/SELINUX=disabled/g" /etc/selinux/config &> /dev/null
 proxy_ip='157.245.200.58/corpo';
 open_Link='jhoelsoft.net/content';
 #Database Details
-dbhost='mysql2.blazingfast.io';
+dbhost='139.162.4.104';
 dbuser='corpovpn_corpo';
 dbpass='corpovpn_corpo2';
 dbname='corpovpn_corpo';
